@@ -21,6 +21,9 @@
 		16ABEB652A7A51D10016EBBA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */; };
 		16ABEB672A7A51DD0016EBBA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB662A7A51DD0016EBBA /* libsqlite3.tbd */; };
 		16ABEB692A7A51E40016EBBA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB682A7A51E40016EBBA /* libz.tbd */; };
+		16ABEB6B2A7A54400016EBBA /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB6A2A7A54400016EBBA /* UMCommonLog.framework */; };
+		16ABEB6D2A7A544C0016EBBA /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB6C2A7A544C0016EBBA /* UMCommon.framework */; };
+		16ABEB6F2A7A54570016EBBA /* UMDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB6E2A7A54570016EBBA /* UMDevice.framework */; };
 		408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		16ABEB662A7A51DD0016EBBA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		16ABEB682A7A51E40016EBBA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		16ABEB6A2A7A54400016EBBA /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommonLog.framework; path = Pods/UMCCommonLog/UMCommonLog/UMCommonLog.framework; sourceTree = "<group>"; };
+		16ABEB6C2A7A544C0016EBBA /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = Pods/UMCommon/UMCommon_7.4.1/UMCommon.framework; sourceTree = "<group>"; };
+		16ABEB6E2A7A54570016EBBA /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = Pods/UMDevice/UMDevice_3.1.0/UMDevice.framework; sourceTree = "<group>"; };
 		7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRSubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81B52D5981E7187209C6623 /* Pods-JRSubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.debug.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE03A34479C8EE7E9A64EB69 /* Pods-JRSubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.release.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16ABEB6F2A7A54570016EBBA /* UMDevice.framework in Frameworks */,
+				16ABEB6D2A7A544C0016EBBA /* UMCommon.framework in Frameworks */,
+				16ABEB6B2A7A54400016EBBA /* UMCommonLog.framework in Frameworks */,
 				16ABEB692A7A51E40016EBBA /* libz.tbd in Frameworks */,
 				16ABEB672A7A51DD0016EBBA /* libsqlite3.tbd in Frameworks */,
 				16ABEB652A7A51D10016EBBA /* CoreTelephony.framework in Frameworks */,
@@ -112,6 +121,9 @@
 		D0489ED9E2CF86EC48F59DD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				16ABEB6E2A7A54570016EBBA /* UMDevice.framework */,
+				16ABEB6C2A7A544C0016EBBA /* UMCommon.framework */,
+				16ABEB6A2A7A54400016EBBA /* UMCommonLog.framework */,
 				16ABEB682A7A51E40016EBBA /* libz.tbd */,
 				16ABEB662A7A51DD0016EBBA /* libsqlite3.tbd */,
 				16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */,
@@ -411,6 +423,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRGS6G42JR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMCCommonLog/UMCommonLog",
+					"$(PROJECT_DIR)/Pods/UMCommon/UMCommon_7.4.1",
+					"$(PROJECT_DIR)/Pods/UMDevice/UMDevice_3.1.0",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JRSubDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,6 +463,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRGS6G42JR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/UMCCommonLog/UMCommonLog",
+					"$(PROJECT_DIR)/Pods/UMCommon/UMCommon_7.4.1",
+					"$(PROJECT_DIR)/Pods/UMDevice/UMDevice_3.1.0",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JRSubDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
