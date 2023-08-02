@@ -11,7 +11,7 @@
 
 - (void)sayShit
 {
-    NSLog(@"你他妈是个ShitGirl");
+    NSLog(@"你是一个ShitGirl");
 }
 
 @end

@@ -16,7 +16,7 @@
 		161622BA2A7A09B500844818 /* JRFuckTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161622B92A7A09B500844818 /* JRFuckTool.swift */; };
 		161622DE2A7A0CB600844818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DD2A7A0CB500844818 /* Foundation.framework */; };
 		161622E02A7A0CBC00844818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DF2A7A0CBB00844818 /* UIKit.framework */; };
-		16ABEB5A2A7A33A30016EBBA /* JRShitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABEB592A7A33A30016EBBA /* JRShitTool.m */; };
+		16ABEB5E2A7A3B8B0016EBBA /* JRShitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */; };
 		408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +32,8 @@
 		161622B92A7A09B500844818 /* JRFuckTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRFuckTool.swift; sourceTree = "<group>"; };
 		161622DD2A7A0CB500844818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		161622DF2A7A0CBB00844818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		16ABEB572A7A33A30016EBBA /* JRSubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRSubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		16ABEB582A7A33A30016EBBA /* JRShitTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRShitTool.h; sourceTree = "<group>"; };
-		16ABEB592A7A33A30016EBBA /* JRShitTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRShitTool.m; sourceTree = "<group>"; };
+		16ABEB5C2A7A3B8B0016EBBA /* JRShitTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRShitTool.h; sourceTree = "<group>"; };
+		16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRShitTool.m; sourceTree = "<group>"; };
 		7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRSubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81B52D5981E7187209C6623 /* Pods-JRSubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.debug.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE03A34479C8EE7E9A64EB69 /* Pods-JRSubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.release.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +74,8 @@
 		161622A02A79FB2B00844818 /* JRSubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				16ABEB5C2A7A3B8B0016EBBA /* JRShitTool.h */,
+				16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */,
 				161622A12A79FB2B00844818 /* AppDelegate.swift */,
 				161622A32A79FB2B00844818 /* SceneDelegate.swift */,
 				161622A52A79FB2B00844818 /* ViewController.swift */,
@@ -83,9 +84,6 @@
 				161622AC2A79FB2C00844818 /* LaunchScreen.storyboard */,
 				161622AF2A79FB2C00844818 /* Info.plist */,
 				161622B92A7A09B500844818 /* JRFuckTool.swift */,
-				16ABEB582A7A33A30016EBBA /* JRShitTool.h */,
-				16ABEB592A7A33A30016EBBA /* JRShitTool.m */,
-				16ABEB572A7A33A30016EBBA /* JRSubDemo-Bridging-Header.h */,
 			);
 			path = JRSubDemo;
 			sourceTree = "<group>";
@@ -226,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				161622A62A79FB2B00844818 /* ViewController.swift in Sources */,
-				16ABEB5A2A7A33A30016EBBA /* JRShitTool.m in Sources */,
+				16ABEB5E2A7A3B8B0016EBBA /* JRShitTool.m in Sources */,
 				161622A22A79FB2B00844818 /* AppDelegate.swift in Sources */,
 				161622BA2A7A09B500844818 /* JRFuckTool.swift in Sources */,
 				161622A42A79FB2B00844818 /* SceneDelegate.swift in Sources */,
@@ -395,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jrayln.JRSubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "JRSubDemo/JRSubDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
@@ -429,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jrayln.JRSubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "JRSubDemo/JRSubDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
