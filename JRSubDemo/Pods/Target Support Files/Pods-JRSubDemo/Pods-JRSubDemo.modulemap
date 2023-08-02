@@ -1,0 +1,6 @@
+framework module Pods_JRSubDemo {
+  umbrella header "Pods-JRSubDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
