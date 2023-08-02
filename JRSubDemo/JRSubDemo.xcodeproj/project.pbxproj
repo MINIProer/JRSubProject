@@ -24,6 +24,7 @@
 		16ABEB6B2A7A54400016EBBA /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB6A2A7A54400016EBBA /* UMCommonLog.framework */; };
 		16ABEB6D2A7A544C0016EBBA /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB6C2A7A544C0016EBBA /* UMCommon.framework */; };
 		16ABEB6F2A7A54570016EBBA /* UMDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB6E2A7A54570016EBBA /* UMDevice.framework */; };
+		16B3C1982A7A5F5E00023999 /* JRCnmTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3C1972A7A5F5E00023999 /* JRCnmTool.swift */; };
 		408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		16ABEB6C2A7A544C0016EBBA /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = Pods/UMCommon/UMCommon_7.4.1/UMCommon.framework; sourceTree = "<group>"; };
 		16ABEB6E2A7A54570016EBBA /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = Pods/UMDevice/UMDevice_3.1.0/UMDevice.framework; sourceTree = "<group>"; };
 		16B3C1962A7A5B1600023999 /* JRSubDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRSubDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		16B3C1972A7A5F5E00023999 /* JRCnmTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRCnmTool.swift; sourceTree = "<group>"; };
 		7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRSubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81B52D5981E7187209C6623 /* Pods-JRSubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.debug.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE03A34479C8EE7E9A64EB69 /* Pods-JRSubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.release.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				161622AF2A79FB2C00844818 /* Info.plist */,
 				161622B92A7A09B500844818 /* JRFuckTool.swift */,
 				16B3C1962A7A5B1600023999 /* JRSubDemo-Bridging-Header.h */,
+				16B3C1972A7A5F5E00023999 /* JRCnmTool.swift */,
 			);
 			path = JRSubDemo;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B3C1982A7A5F5E00023999 /* JRCnmTool.swift in Sources */,
 				161622A62A79FB2B00844818 /* ViewController.swift in Sources */,
 				16ABEB5E2A7A3B8B0016EBBA /* JRShitTool.m in Sources */,
 				161622A22A79FB2B00844818 /* AppDelegate.swift in Sources */,

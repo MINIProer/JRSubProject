@@ -9,5 +9,6 @@
 #define JRSubDemo_Bridging_Header_h
 
 #import "JRShitTool.h"
+#import <UMCommon/UMCommon.h>
 
 #endif /* JRSubDemo_Bridging_Header_h */
