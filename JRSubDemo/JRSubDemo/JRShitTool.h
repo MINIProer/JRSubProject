@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)sayShit;
 
++ (void)setupUM;
+
 @end
 
 NS_ASSUME_NONNULL_END

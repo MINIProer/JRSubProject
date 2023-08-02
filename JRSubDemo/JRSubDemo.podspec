@@ -109,5 +109,9 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
 
   spec.dependency "SnapKit"
+  spec.dependency "UMCommon"
+  spec.dependency "UMDevice"
+  spec.dependency "UMCCommonLog"
+
 
 end

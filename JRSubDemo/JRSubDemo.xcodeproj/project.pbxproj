@@ -17,6 +17,10 @@
 		161622DE2A7A0CB600844818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DD2A7A0CB500844818 /* Foundation.framework */; };
 		161622E02A7A0CBC00844818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DF2A7A0CBB00844818 /* UIKit.framework */; };
 		16ABEB5E2A7A3B8B0016EBBA /* JRShitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */; };
+		16ABEB632A7A51C70016EBBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB622A7A51C70016EBBA /* SystemConfiguration.framework */; };
+		16ABEB652A7A51D10016EBBA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */; };
+		16ABEB672A7A51DD0016EBBA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB662A7A51DD0016EBBA /* libsqlite3.tbd */; };
+		16ABEB692A7A51E40016EBBA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB682A7A51E40016EBBA /* libz.tbd */; };
 		408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +38,10 @@
 		161622DF2A7A0CBB00844818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16ABEB5C2A7A3B8B0016EBBA /* JRShitTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRShitTool.h; sourceTree = "<group>"; };
 		16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRShitTool.m; sourceTree = "<group>"; };
+		16ABEB622A7A51C70016EBBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		16ABEB662A7A51DD0016EBBA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		16ABEB682A7A51E40016EBBA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRSubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81B52D5981E7187209C6623 /* Pods-JRSubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.debug.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE03A34479C8EE7E9A64EB69 /* Pods-JRSubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.release.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16ABEB692A7A51E40016EBBA /* libz.tbd in Frameworks */,
+				16ABEB672A7A51DD0016EBBA /* libsqlite3.tbd in Frameworks */,
+				16ABEB652A7A51D10016EBBA /* CoreTelephony.framework in Frameworks */,
+				16ABEB632A7A51C70016EBBA /* SystemConfiguration.framework in Frameworks */,
 				408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */,
 				161622E02A7A0CBC00844818 /* UIKit.framework in Frameworks */,
 				161622DE2A7A0CB600844818 /* Foundation.framework in Frameworks */,
@@ -100,6 +112,10 @@
 		D0489ED9E2CF86EC48F59DD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				16ABEB682A7A51E40016EBBA /* libz.tbd */,
+				16ABEB662A7A51DD0016EBBA /* libsqlite3.tbd */,
+				16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */,
+				16ABEB622A7A51C70016EBBA /* SystemConfiguration.framework */,
 				161622DF2A7A0CBB00844818 /* UIKit.framework */,
 				161622DD2A7A0CB500844818 /* Foundation.framework */,
 				7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */,
@@ -119,6 +135,7 @@
 				1616229B2A79FB2B00844818 /* Frameworks */,
 				1616229C2A79FB2B00844818 /* Resources */,
 				4E242774B94D5E7E7DD10488 /* [CP] Embed Pods Frameworks */,
+				7D47A99B75A3E3DDB98123D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +209,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D47A99B75A3E3DDB98123D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B9C8FD8F8AB461641C62F6AA /* [CP] Check Pods Manifest.lock */ = {

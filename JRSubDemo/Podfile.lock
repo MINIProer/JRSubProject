@@ -1,16 +1,29 @@
 PODS:
   - SnapKit (5.6.0)
+  - UMCCommonLog (2.0.2)
+  - UMCommon (7.4.1):
+    - UMDevice
+  - UMDevice (3.1.0)
 
 DEPENDENCIES:
   - SnapKit
+  - UMCCommonLog
+  - UMCommon
+  - UMDevice
 
 SPEC REPOS:
   trunk:
     - SnapKit
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
 
 SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  UMCCommonLog: bea707e50c85cef4b0eb47cc5c7226bb843245ca
+  UMCommon: 47e0b53f6a36568e958a5abd005ed7577fcac9ad
+  UMDevice: 9ef8045b59e0479cff7062915c879a1af46fa094
 
-PODFILE CHECKSUM: 0484577624186a92e0ecd5961550874d067c9248
+PODFILE CHECKSUM: d8c4fed2db3495faee77f64c2f03693afee22556
 
 COCOAPODS: 1.12.1
