@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "UIKit", "Foundation", "CoreTelephony", "SystemConfiguration", "libs", "libsqlite3"
+  spec.frameworks = "UIKit", "Foundation"
   spec.static_framework = true
 
   # spec.library   = "iconv"
@@ -112,7 +112,6 @@ Pod::Spec.new do |spec|
   spec.dependency "SnapKit"
   spec.dependency "UMCommon"
   spec.dependency "UMDevice"
-  spec.dependency "UMCCommonLog"
 
 
 end

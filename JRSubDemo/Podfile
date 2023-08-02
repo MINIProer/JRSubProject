@@ -9,6 +9,5 @@ target 'JRSubDemo' do
   pod 'SnapKit'
   pod 'UMCommon'
   pod 'UMDevice'
-  pod 'UMCCommonLog'
 
 end
