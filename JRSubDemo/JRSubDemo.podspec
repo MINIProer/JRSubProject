@@ -67,9 +67,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JRSubDemo/*.swift"
-
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.source_files  = "JRSubDemo/**/*.swift","JRSubDemo/**/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
