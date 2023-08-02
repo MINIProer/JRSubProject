@@ -7,6 +7,13 @@
 
 import Foundation
 
-class JRFuckTool {
+public class JRFuckTool {
     
+    public init() {
+        
+    }
+    
+    public func caonima() {
+        print("caonima a dsb")
+    }
 }
