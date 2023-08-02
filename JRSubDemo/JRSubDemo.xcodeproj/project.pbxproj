@@ -13,6 +13,9 @@
 		161622A92A79FB2B00844818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161622A72A79FB2B00844818 /* Main.storyboard */; };
 		161622AB2A79FB2C00844818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161622AA2A79FB2C00844818 /* Assets.xcassets */; };
 		161622AE2A79FB2C00844818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161622AC2A79FB2C00844818 /* LaunchScreen.storyboard */; };
+		161622BA2A7A09B500844818 /* JRFuckTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161622B92A7A09B500844818 /* JRFuckTool.swift */; };
+		161622DE2A7A0CB600844818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DD2A7A0CB500844818 /* Foundation.framework */; };
+		161622E02A7A0CBC00844818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DF2A7A0CBB00844818 /* UIKit.framework */; };
 		408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		161622AA2A79FB2C00844818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161622AD2A79FB2C00844818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		161622AF2A79FB2C00844818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161622B92A7A09B500844818 /* JRFuckTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRFuckTool.swift; sourceTree = "<group>"; };
+		161622DD2A7A0CB500844818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		161622DF2A7A0CBB00844818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRSubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81B52D5981E7187209C6623 /* Pods-JRSubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.debug.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE03A34479C8EE7E9A64EB69 /* Pods-JRSubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRSubDemo.release.xcconfig"; path = "Target Support Files/Pods-JRSubDemo/Pods-JRSubDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				408450BC3D2D2A75987797E8 /* Pods_JRSubDemo.framework in Frameworks */,
+				161622E02A7A0CBC00844818 /* UIKit.framework in Frameworks */,
+				161622DE2A7A0CB600844818 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +78,7 @@
 				161622AA2A79FB2C00844818 /* Assets.xcassets */,
 				161622AC2A79FB2C00844818 /* LaunchScreen.storyboard */,
 				161622AF2A79FB2C00844818 /* Info.plist */,
+				161622B92A7A09B500844818 /* JRFuckTool.swift */,
 			);
 			path = JRSubDemo;
 			sourceTree = "<group>";
@@ -86,6 +95,8 @@
 		D0489ED9E2CF86EC48F59DD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				161622DF2A7A0CBB00844818 /* UIKit.framework */,
+				161622DD2A7A0CB500844818 /* Foundation.framework */,
 				7D25BF314F079A3E8611D8FB /* Pods_JRSubDemo.framework */,
 			);
 			name = Frameworks;
@@ -190,6 +201,7 @@
 			files = (
 				161622A62A79FB2B00844818 /* ViewController.swift in Sources */,
 				161622A22A79FB2B00844818 /* AppDelegate.swift in Sources */,
+				161622BA2A7A09B500844818 /* JRFuckTool.swift in Sources */,
 				161622A42A79FB2B00844818 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

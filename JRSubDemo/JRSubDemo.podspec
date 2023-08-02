@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JRSubDemo"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of JRSubDemo."
+  spec.summary      = "这是项目的子工程文件"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			这是项目的子工程文件
+			hahahah这是项目的子工程文件lskdjflksjlkdjfk
                    DESC
 
   spec.homepage     = "https://github.com/MINIProer/JRSubProject.git"
@@ -41,6 +41,7 @@ Pod::Spec.new do |spec|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.platform     = :ios, "13.0"
+  spec.swift_versions = '5.0'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -92,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = "UIKit", "Foundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
