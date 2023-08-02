@@ -6,5 +6,6 @@ target 'JRSubDemo' do
   use_frameworks!
 
   # Pods for JRSubDemo
+  pod 'SnapKit'
 
 end
