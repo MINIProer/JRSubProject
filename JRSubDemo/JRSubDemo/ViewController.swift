@@ -25,6 +25,9 @@ class ViewController: UIViewController {
             make.center.equalTo(self.view)
             make.size.equalTo(CGSizeMake(100, 100))
         }
+        
+        let shitTool = JRShitTool()
+        shitTool.sayShit()
     }
 
 
