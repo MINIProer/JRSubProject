@@ -7,7 +7,6 @@
 
 #import "JRShitTool.h"
 #import <UMCommon/UMCommon.h>
-#import <UMCommonLog/UMCommonLogHeaders.h>
 
 @implementation JRShitTool
 
