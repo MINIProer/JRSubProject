@@ -92,6 +92,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   spec.frameworks = "UIKit", "Foundation", "CoreTelephony", "SystemConfiguration", "libs", "libsqlite3"
+  spec.static_framework = true
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
