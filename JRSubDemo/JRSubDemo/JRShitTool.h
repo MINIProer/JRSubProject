@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)setupUM;
 
++ (void)setUMLogEnable;
+
 @end
 
 NS_ASSUME_NONNULL_END
