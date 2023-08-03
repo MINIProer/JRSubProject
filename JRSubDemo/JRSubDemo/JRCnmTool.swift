@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class JRCnmTool {
+public class JRCnmTool: NSObject {
     
     static public func setupFKUM() {
         
