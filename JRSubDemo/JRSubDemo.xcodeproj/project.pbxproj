@@ -16,7 +16,6 @@
 		161622BA2A7A09B500844818 /* JRFuckTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161622B92A7A09B500844818 /* JRFuckTool.swift */; };
 		161622DE2A7A0CB600844818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DD2A7A0CB500844818 /* Foundation.framework */; };
 		161622E02A7A0CBC00844818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161622DF2A7A0CBB00844818 /* UIKit.framework */; };
-		163BDD0B2A7B4664009DC8BD /* Appdelegate+UMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BDD0A2A7B4664009DC8BD /* Appdelegate+UMExtension.swift */; };
 		16ABEB5E2A7A3B8B0016EBBA /* JRShitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */; };
 		16ABEB632A7A51C70016EBBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB622A7A51C70016EBBA /* SystemConfiguration.framework */; };
 		16ABEB652A7A51D10016EBBA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABEB642A7A51D10016EBBA /* CoreTelephony.framework */; };
@@ -41,7 +40,6 @@
 		161622B92A7A09B500844818 /* JRFuckTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRFuckTool.swift; sourceTree = "<group>"; };
 		161622DD2A7A0CB500844818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		161622DF2A7A0CBB00844818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		163BDD0A2A7B4664009DC8BD /* Appdelegate+UMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appdelegate+UMExtension.swift"; sourceTree = "<group>"; };
 		16ABEB5C2A7A3B8B0016EBBA /* JRShitTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRShitTool.h; sourceTree = "<group>"; };
 		16ABEB5D2A7A3B8B0016EBBA /* JRShitTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRShitTool.m; sourceTree = "<group>"; };
 		16ABEB622A7A51C70016EBBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -112,7 +110,6 @@
 				161622B92A7A09B500844818 /* JRFuckTool.swift */,
 				16B3C1962A7A5B1600023999 /* JRSubDemo-Bridging-Header.h */,
 				16B3C1972A7A5F5E00023999 /* JRCnmTool.swift */,
-				163BDD0A2A7B4664009DC8BD /* Appdelegate+UMExtension.swift */,
 			);
 			path = JRSubDemo;
 			sourceTree = "<group>";
@@ -277,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163BDD0B2A7B4664009DC8BD /* Appdelegate+UMExtension.swift in Sources */,
 				16B3C1982A7A5F5E00023999 /* JRCnmTool.swift in Sources */,
 				161622A62A79FB2B00844818 /* ViewController.swift in Sources */,
 				16ABEB5E2A7A3B8B0016EBBA /* JRShitTool.m in Sources */,
